@@ -1,0 +1,15 @@
+/* our-products */
+
+.produkt-list-item{
+    /* display: flex;
+    flex-direction:column;
+   align-items: center; */
+   text-align: center;
+   padding: 32px 52px;
+  border: 1px solid #1111111A;
+  border-radius: 14px;
+}
+
+.produkt-subtitle{
+    text-transform: uppercase;
+}
