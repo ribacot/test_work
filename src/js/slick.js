@@ -6,7 +6,7 @@ $('.responsive').slick({
   speed: 300,
   slidesToScroll: 1,
   adaptiveHeight: true,
-  slidesToShow: 4,
+  slidesToShow: 3,
   variableWidth: true, // обовязково додається, щоб частина картки заходило за вьюпорт
 
   responsive: [
