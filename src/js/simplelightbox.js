@@ -2,7 +2,13 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
   captionsData: 'alt',
 });
-
+(() => {
+  const images = document.querySelectorAll('.gallery-link');
+  images.forEach(el => {
+    const img = el.querySelector('img');
+    el.href = img.src;
+  });
+})();
 // https://simplelightbox.com/
 // https://cdnjs.com/libraries/simplelightbox
 
