@@ -1,3 +1,4 @@
+
 $('.responsive').slick({
   dots: true,
   // prevArrow: '<button type="button" class="my-slick-prev">&xlarr;</button>',
@@ -10,6 +11,7 @@ $('.responsive').slick({
   variableWidth: true, // обовязково додається, щоб частина картки заходило за вьюпорт
 
   responsive: [
+  
     {
       breakpoint: 1200,
       settings: {
