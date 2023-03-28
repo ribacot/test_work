@@ -11,6 +11,9 @@
 @import url('./components/backdrop.css');
 @import url('./components/titles.css');
 @import url('./components/buttons.css');
+@import url('./components/up-button.css');
+@import url('./components/slik.css');
+
 
 /* Layout */
 /* @import url('./layout/header-and-mob-menu.css'); */

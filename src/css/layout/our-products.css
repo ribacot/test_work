@@ -116,6 +116,12 @@
   height: 13px;
   background-color: rgba(17, 17, 17, 0.1);
   border-radius: 50%;
+
+    	transition-property: background,opacity;
+	transition-duration: 300ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 
 .slick-dots li button:hover:before,
@@ -152,7 +158,7 @@
 
 .slick-prev:before,
 .slick-next:before {
-  content: '❮';
+  content: '';
   font-family: inherit;
   display: flex;
   justify-content: center;
@@ -161,6 +167,16 @@
   height: 25px;
   background-color: rgba(253, 146, 34, 0.5);
   border-radius: 50%;
+
+
+  	transition-property: background;
+	transition-duration: 300ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.slick-prev:before{
+   content: '❮';
+ 
 }
 
 .slick-next:before {
@@ -174,6 +190,7 @@
 .slick-prev,
 .slick-next {
   top: 46%;
+  
 }
 
 .slick-prev:hover.slick-prev:before,
