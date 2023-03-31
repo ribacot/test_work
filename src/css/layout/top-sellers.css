@@ -33,10 +33,6 @@
   width: 100%;
   height: auto;
 }
-@media screen and (min-width: 768px) {
-  .top-sellers-image {
-  }
-}
 
 .sellers-decor {
   overflow: hidden;
@@ -49,7 +45,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
   .top-sellers-item {
     max-width: 100%;
   }
