@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('./base/fonts.css');
+
 /* Utils */
 @import url('./utils/variables.css');
 @import url('./utils/visually-hidden.css');
@@ -11,15 +14,18 @@
 @import url('./components/backdrop.css');
 @import url('./components/titles.css');
 @import url('./components/buttons.css');
+/* slik */
+@import url('./components/slick.css');
+
+/* up-button */
 @import url('./components/up-button.css');
-@import url('./components/slik.css');
 
 
 /* Layout */
-/* @import url('./layout/header-and-mob-menu.css'); */
+@import url('./layout/header-and-mob-menu.css');
 /* @import url('./layout/hero.css'); */
 /* @import url('./layout/advantages.css'); */
-/* @import url('./layout/uniqu-components.css'); */
+@import url('./layout/uniqu-components.css');
 /* @import url('./layout/how-its-made.css'); */
 @import url('./layout/our-products.css');
 @import url('./layout/top-sellers.css');
@@ -31,3 +37,4 @@
 /* @import url('./layout/modal-review.css'); */
 /* @import url('./layout/modal-feedback.css'); */
 /* @import url('./layout/modal-explore.css'); */
+
