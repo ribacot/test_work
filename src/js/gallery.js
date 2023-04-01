@@ -7,7 +7,7 @@ const lightbox = new SimpleLightbox('.gallery a', {
 (() => {
   const images = document.querySelectorAll('.gallery-link');
   images.forEach(el => {
-    const img = el.querySelector('');
+   let img = el.querySelector('img');
     el.href = img.src   ;
   });
 })();
