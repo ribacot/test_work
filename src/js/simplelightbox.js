@@ -5,7 +5,7 @@
 (() => {
   const images = document.querySelectorAll('.gallery-link');
   images.forEach(el => {
-    const img = el.querySelector('.big-img');
+    const img = el.querySelector('img');
     el.href = img.src;
   });
 })();
